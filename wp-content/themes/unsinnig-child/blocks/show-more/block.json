@@ -1,0 +1,15 @@
+{
+    "name": "gsoa/show-more",
+    "title": "Show more",
+    "description": "",
+    "category": "layout",
+    "icon": "arrow-right-alt",
+    "keywords": [
+        "show more",
+        "gsoa"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "layout.php"
+    }
+}

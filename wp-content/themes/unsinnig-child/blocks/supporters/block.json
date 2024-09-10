@@ -1,0 +1,15 @@
+{
+    "name": "gsoa/supporters",
+    "title": "Supporters",
+    "description": "",
+    "category": "layout",
+    "icon": "people",
+    "keywords": [
+        "supporters",
+        "gsoa"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "layout.php"
+    }
+}

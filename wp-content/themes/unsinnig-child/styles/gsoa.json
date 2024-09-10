@@ -1,0 +1,144 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "GSoA",
+    "settings": {
+        "color": {
+            "duotone": [
+                {
+                    "colors": [
+                        "#A62B0C",
+                        "#F3F0E7"
+                    ],
+                    "slug": "duotone-1",
+                    "name": "Dark rust to beige"
+                }
+            ],
+            "gradients": [
+                {
+                    "slug": "gradient-1",
+                    "gradient": "linear-gradient(to bottom, #A62A0C42 0%, #F3F0E7 100%)",
+                    "name": "Vertical transparent rust to beige"
+                },
+                {
+                    "slug": "gradient-7",
+                    "gradient": "linear-gradient(to bottom, #A62A0C42 50%, #F3F0E7 50%)",
+                    "name": "Vertical hard transparent rust to beige"
+                },
+                {
+                    "slug": "gradient-2",
+                    "gradient": "linear-gradient(to bottom, #A62B0C 0%, #F3F0E7 100%)",
+                    "name": "Vertical rust to beige"
+                },
+                {
+                    "slug": "gradient-8",
+                    "gradient": "linear-gradient(to bottom, #A62B0C 50%, #F3F0E7 50%)",
+                    "name": "Vertical hard rust to beige"
+                }
+            ],
+            "palette": [
+                {
+                    "color": "#28EB64",
+                    "name": "Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "Base / 2",
+                    "slug": "base-2"
+                },
+                {
+                    "color": "#000000",
+                    "name": "Contrast",
+                    "slug": "contrast"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "PP Neue Machina",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": 400,
+                            "src": [
+                                "file:./assets/fonts/neuemachina/PPNeueMachina-InktrapRegular.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "PP Neue Machina",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": 400,
+                            "src": [
+                                "file:./assets/fonts/neuemachina/PPNeueMachina-InktrapRegularItalic.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "PP Neue Machina",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": 900,
+                            "src": [
+                                "file:./assets/fonts/neuemachina/PPNeueMachina-InktrapUltrabold.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "PP Neue Machina",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": 900,
+                            "src": [
+                                "file:./assets/fonts/neuemachina/PPNeueMachina-InktrapUltraboldItalic.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"PP Neue Machina\", grotesk, sans-serif",
+                    "name": "neue-machina",
+                    "slug": "body"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "793px",
+            "wideSize": "1280px"
+        }
+    },
+    "styles": {
+        "blocks": {},
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontWeight": "900"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontWeight": "900"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontWeight": "900"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontWeight": "900"
+                }
+            }
+        },
+        "typography": {
+            "fontSize": "clamp(15px, 1.1514074074vw, 22px)"
+        },
+        "spacing": {
+            "blockGap": "1.2rem",
+            "padding": {
+                "left": "1rem",
+                "right": "1rem"
+            }
+        }
+    }
+}
